@@ -1,0 +1,128 @@
+@font-face {
+  font-family: draconis;
+  src: url(Draconis.ttf);
+}
+
+@font-face {
+  font-family: draconis-bold;
+  src: url(DraconisBold.ttf);
+}
+
+body {
+  font-family: draconis;
+}
+
+h1 {
+  font-family: draconis-bold;
+}
+
+.shadowbox {
+  background-color: lightgray;
+  border-radius: 2em;
+  padding: 0.75em;
+}
+
+.box {
+  background-color: white;
+  border-width: 0.2em;
+  border-style: solid;
+  border-radius: 1em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.box_header {
+  margin: 0.5em 0.5em 0 0.5em;
+  font-family: draconis-bold;
+}
+
+.box_list {
+  text-align: left;
+  margin-top: 0.25em;
+  margin-left: 0.5em;
+  padding-left: 0;
+}
+
+.box_list li {
+  list-style-type: none;
+}
+
+.box_list li span:first-of-type {
+  margin-right: 0.25em;
+}
+
+.box_list li span {
+  font-size: 1.25em;
+  margin-right: 0.5em;
+  vertical-align: middle;
+}
+
+.box_list li span:last-of-type {
+  font-size: 1em;
+  margin-right: 0;
+}
+
+.box table {
+  margin-left: 1em;
+  text-align: left;
+  margin-bottom: 1em;
+  margin-right: 1em;
+}
+
+.box th {
+  font-family: draconis-bold;
+}
+
+.box td {
+  background-color: lightgray;
+  border-radius: 0.5em;
+  font-size: 1.5em;
+  padding-left: 0.5em;
+  padding-right: 1em;
+}
+
+.attribute_number {
+  font-size: 2em;
+  padding: 0 0.2em 0.1em 0.2em;
+}
+
+.large_number {
+  font-size: 3em;
+}
+
+.attribute_value {
+  border-width: 0.1em;
+  border-style: solid;
+  border-radius: 1em;
+  margin: 0 1em 0 1em;
+  padding: 0.5em 0 0.5em 0;
+}
+
+.blurb {
+  text-align: left;
+  margin-left: 1em;
+  margin-bottom: 1em;
+}
+
+.blurb div {
+  margin-left: 0.5em;
+  font-family: draconis-bold;
+}
+
+.blurb p {
+  margin: 0;
+  margin-right: 1em;
+}
+
+.spell {
+  font-size: 1em !important;
+}
+
+.spell ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.spell li {
+  font-size: 0.75em;
+}
