@@ -36,6 +36,11 @@ h1 {
   font-family: draconis-bold;
 }
 
+.box_footer {
+  margin: 0 0.5em 0 0.5em;
+  font-family: draconis-bold;
+}
+
 .box_list {
   text-align: left;
   margin-top: 0.25em;
@@ -124,5 +129,9 @@ h1 {
 }
 
 .spell li {
+  font-size: 0.75em;
+}
+
+.smol {
   font-size: 0.75em;
 }
